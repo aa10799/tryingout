@@ -1,28 +1,4 @@
-/**
- * jsPsych plugin for pavlovia.org
- *
- * This plugin handles communications with the pavlovia.org server: it opens and closes sessions,
- * and uploads data to the server.
- *
- * @author Alain Pitiot
- * @version 2020.5
- * @copyright (c) 2020 Ilixa Ltd. ({@link http://ilixa.com})
- * @license Distributed under the terms of the MIT License
- */
 
-
-var jsPsychPavlovia = (function(jspsych) {
-	/**
-	 * The version number.
-	 *
-	 * @type {string}
-	 * @public
-	 */
-	"use strict";
-	const version = '2021.12';
-
-
-	/**
 	 * The default error callback function.
 	 *
 	 * Error messages are displayed in the body of the document and in the browser's console.
